@@ -3,19 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>Личный Проект</title>
+  <link rel="stylesheet" type="text/css" href="styleINDEX.css">
+  <link href="css/normalize.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
 		<nav>
 			<img src="img/nerds-logo.jpg" alt="Nerd's">
-			<ul>
+			<ul class="site-nav">
 				<li><a href="">Студия</a></li>
 				<li><a href="">Клиенты</a></li>
 				<li><a href="">Магазин</a></li>
 				<li><a href="">Контакты</a></li>
 			</ul>
-			<ul><li><a href="">Корзина</a></li>
+			<ul class="site-nav"><li><a href="">Корзина</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -58,12 +60,16 @@
     </footer>
            <!-- ФОРМА-->
     <section>
+      <form>
     <h2>Напишите нам</h2>
-    <p>Ваше имя:<input type="text" name="name">
-    </p>
-    <p>Ваш e-mail:<input type="text" name="e-mail"> </p>
-    <p>Текст письма:<input type="text" name="text"> </p>
-    <button>Отправить</button>	
+    <label>Ваше имя:<input type="name" name="name"></label>
+
+    <label>Ваш e-mail:<input type="e-mail" name="e-mail"></label>
+
+    <label>Текст письма:<textarea></textarea></label>
+
+    <button input type="submit">Отправить</button>	
+      </form>  
     </section> 
 </body>
 </html>
